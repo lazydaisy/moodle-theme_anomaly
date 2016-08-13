@@ -25,10 +25,16 @@
 
 defined('MOODLE_INTERNAL') || die;
 
-$plugin->version   = 2016081300; // The current module version (Date: YYYYMMDDXX)
-$plugin->requires  = 2016052300; // Requires this Moodle version
 $plugin->component = 'theme_anomaly'; // Full name of the plugin (used for diagnostics).
+
 $plugin->maturity  = MATURITY_STABLE;
+
+$plugin->release   = 'Anomaly 3.1 (Build: 20160813)'; // Human-friendly version name.
+
+$plugin->requires  = 2016052300; // Requires this Moodle version
+
+$plugin->version   = 2016081300; // The current module version (Date: YYYYMMDDXX)
+
 $plugin->dependencies = array(
     'theme_base'  => 2016052300,
 );
