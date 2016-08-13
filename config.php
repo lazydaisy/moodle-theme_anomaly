@@ -30,6 +30,7 @@ $THEME->sheets = array(
     'browser',
     'dock',
     'menu',
+    'course',
     'settings'
 );
 // This variable is an array containing the names of all the
